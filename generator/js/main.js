@@ -38,7 +38,7 @@ $(function() {
 		;
 	});
 
-	$('#card_title').on('keyup', function(e) {
+	$('#sample_card_title').on('keyup', function(e) {
 		$('#sample-front .title').html($(this).val());
 	});
 
